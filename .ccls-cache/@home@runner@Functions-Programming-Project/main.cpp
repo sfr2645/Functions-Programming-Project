@@ -4,9 +4,9 @@
 using namespace std;
 
 int computeInflation(int oneYearPrice, int twoYearPrice);
-double	computeInflation(double oneYearPrice, double twoYearPrice);
-double	computeInflation(double oneYearPrice, int twoYearPrice);
-double	computeInflation(int oneYearPrice, double twoYearPrice);
+double computeInflation(double oneYearPrice, double twoYearPrice);
+double computeInflation(double oneYearPrice, int twoYearPrice);
+double computeInflation(int oneYearPrice, double twoYearPrice);
 
 int main()
 
@@ -16,15 +16,15 @@ int main()
   
     cout << "What is the current price?" << endl;
     cin >> currPrice;
-    cout << "What is the  price of one year ago." << endl;
+    cout << "What is the price of one year ago." << endl;
     cin >> oneYearPrice;
-    cout << "What is the  price of two years ago?" << endl;
+    cout << "What is the price of two years ago?" << endl;
     cin >> twoYearPrice;
 
   
-    oneYearInflation = (double)(currPrice - oneYearPrice) / oneYearPrice * 100;
+    oneYearInflation=(double)(currPrice - oneYearPrice) / oneYearPrice * 100;
   
-    twoYearInflation = (double)(currPrice - twoYearPrice) / twoYearPrice * 100;
+    twoYearInflation=(double)(currPrice - twoYearPrice) / twoYearPrice * 100;
   
     if (oneYearInflation > twoYearInflation)
     {
