@@ -1,3 +1,4 @@
+//this program will calculate the radius, diameter, circumference, and area of a circle after the center point and any other point on the circle is inputted
 #include <cmath>
 #include <iostream>
 #include <iomanip>
@@ -29,7 +30,6 @@ cout << "Diameter = " << 2*r << std::endl;
 cout << "Circumference = " << circumference(r) << std::endl;
 cout << "Area = " << area(r) << std::endl;
 
-  system("pause");
     return 0;
 }
 
